@@ -1,0 +1,145 @@
+{
+  "scope": "B08-00~04 executed notebook and Word guide records accessible in this container",
+  "verification_date": "2026-10-20",
+  "records": [
+    {
+      "stage": "B08-00",
+      "notebook": "B08_00_BioCulture_Candidate_Pool_Design_Clean_v2(1).ipynb",
+      "codes": 7,
+      "executed": 7,
+      "errors": [],
+      "guide": "B08_00_BioCulture_Training_Guide_v1.docx",
+      "guide_paragraphs": 71,
+      "guide_tables": 5,
+      "guide_chars": 5526,
+      "has_practice": true,
+      "has_python": true,
+      "status": "executed_no_error"
+    },
+    {
+      "stage": "B08-01",
+      "notebook": "B08_01_BioCulture_Retrospective_Sequential_Selection_v1(1).ipynb",
+      "codes": 7,
+      "executed": 7,
+      "errors": [],
+      "guide": "B08_01_BioCulture_Training_Guide_v1.docx",
+      "guide_paragraphs": 52,
+      "guide_tables": 2,
+      "guide_chars": 5223,
+      "has_practice": true,
+      "has_python": true,
+      "status": "executed_no_error"
+    },
+    {
+      "stage": "B08-02",
+      "notebook": "B08_02_BioCulture_Bayesian_Optimization_v1(1).ipynb",
+      "codes": 7,
+      "executed": 7,
+      "errors": [],
+      "guide": "B08_02_BioCulture_Training_Guide_v1.docx",
+      "guide_paragraphs": 88,
+      "guide_tables": 3,
+      "guide_chars": 6270,
+      "has_practice": true,
+      "has_python": true,
+      "status": "executed_no_error"
+    },
+    {
+      "stage": "B08-03",
+      "notebook": "B08_03_BioCulture_Selection_Bias_Audit_v1(1).ipynb",
+      "codes": 8,
+      "executed": 8,
+      "errors": [],
+      "guide": "B08_03_BioCulture_Training_Guide_v1.docx",
+      "guide_paragraphs": 75,
+      "guide_tables": 1,
+      "guide_chars": 5333,
+      "has_practice": true,
+      "has_python": true,
+      "status": "executed_no_error"
+    },
+    {
+      "stage": "B08-04",
+      "notebook": "B08_04_BioCulture_Integrated_Prospective_Design_v1(1).ipynb",
+      "codes": 7,
+      "executed": 7,
+      "errors": [],
+      "guide": "B08_04_BioCulture_Training_Guide_v1.docx",
+      "guide_paragraphs": 57,
+      "guide_tables": 4,
+      "guide_chars": 4792,
+      "has_practice": true,
+      "has_python": true,
+      "status": "executed_no_error"
+    }
+  ],
+  "file_manifest": [
+    {
+      "file": "B08_00_BioCulture_Candidate_Pool_Design_Clean_v2(1).ipynb",
+      "size": 22811,
+      "sha256": "fe7a0f852b7d1c4f1224570e6ac94b839bd8711a304720c42a6259d2ad2a8a11"
+    },
+    {
+      "file": "B08_00_BioCulture_Training_Guide_v1.docx",
+      "size": 42607,
+      "sha256": "789211ed8cac2aa0cd6890a3cb07289e6445ed16c1ef27d6e309025f18689720"
+    },
+    {
+      "file": "B08_01_BioCulture_Retrospective_Sequential_Selection_v1(1).ipynb",
+      "size": 89718,
+      "sha256": "002cbefa182fabe92d97e7140a924cc13ae70f46d5c5c5bd5ccbd123ad3d6019"
+    },
+    {
+      "file": "B08_01_BioCulture_Training_Guide_v1.docx",
+      "size": 42121,
+      "sha256": "823e7c1b477e7b68eeba979edb09691719a44dd3c6584292a2d1cdeb3cae0907"
+    },
+    {
+      "file": "B08_02_BioCulture_Bayesian_Optimization_v1(1).ipynb",
+      "size": 112723,
+      "sha256": "1ceb82db03430aaa55fa8fbdf86e3c0f9ec0d84fcd8e3cbd85beee2dabfefa76"
+    },
+    {
+      "file": "B08_02_BioCulture_Training_Guide_v1.docx",
+      "size": 43195,
+      "sha256": "ed5a04a89eac39df36bc3bef248cfe67b8d390f59b98d3f29614b49ca0050139"
+    },
+    {
+      "file": "B08_03_BioCulture_Selection_Bias_Audit_v1(1).ipynb",
+      "size": 101816,
+      "sha256": "a737d66699cf48cbfa0af14d37c2d7d90903e68659a397fbdbd907cc50db14d1"
+    },
+    {
+      "file": "B08_03_BioCulture_Training_Guide_v1.docx",
+      "size": 42067,
+      "sha256": "8b41d4cd00a658efd8203b80a2ef46c6f5430df10a5d9e0668c633fdabcb0472"
+    },
+    {
+      "file": "B08_04_BioCulture_Integrated_Prospective_Design_v1(1).ipynb",
+      "size": 24506,
+      "sha256": "511dd96a4e76a50bce96ba743c35ca3856126330542191992fdc049b1f795fc0"
+    },
+    {
+      "file": "B08_04_BioCulture_Training_Guide_v1.docx",
+      "size": 42204,
+      "sha256": "9ac9b764b204c4f2d18e87f8b726f6d2127b8b4049373131ae878235001011f7"
+    }
+  ],
+  "cross_checks": {
+    "B08_00_medium_profiles": 1025,
+    "B08_00_n_rounds_disagreement": 0,
+    "B08_01_recorded_selections": 240,
+    "B08_02_recorded_selections": 360,
+    "B08_02_B08_01_replay": "passed in notebook output",
+    "B08_03_records": 360,
+    "B08_03_B08_01_replay": "12 evaluations matched in notebook output",
+    "B08_04_candidates": 13,
+    "B08_04_prospective_measurements_available": false
+  },
+  "limits": [
+    "Original Excel and generated CSV not present in sandbox; cannot independently reproduce all numerical computations",
+    "Notebook outputs show user-side successful tests but not fresh execution here",
+    "Word descriptions and exercises are present but solution code not executed independently",
+    "Prospective experimental approval and new OD600 experiments not conducted"
+  ]
+}

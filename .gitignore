@@ -1,0 +1,10 @@
+# External sources and user-generated results
+data/
+results/
+outputs/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+._*
